@@ -1,6 +1,6 @@
 try:
-    file_employees = open(r"C:\Users\Lenovo\OneDrive\Рабочий стол\employees.txt", encoding='utf-8')
-    file_tasks = open(r"C:\Users\Lenovo\OneDrive\Рабочий стол\tasks.txt", encoding='utf-8')
+    file_employees = open(r"employees.txt", encoding='utf-8')
+    file_tasks = open(r"tasks.txt", encoding='utf-8')
 except IOError:  # проверка на ошибку
     print("Не удалось открыть один из файлов :(")
 else:
